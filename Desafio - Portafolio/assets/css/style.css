@@ -30,7 +30,7 @@ body {
 }
 
 .portfolio th, .portfolio td {
-    border: 1px solid #d4a373; /* Color de borde con la paleta */
+    border: 1px solid #bc6c25; /* Color de borde con la paleta */
     padding: 10px;
     text-align: left;
 }
@@ -58,7 +58,6 @@ h1 {
     max-width: 680px;
     padding: 20px;
     text-align: center;
-    background-color: #ffe5d9; /* Color de fondo suave */
     border-radius: 8px; /* Bordes redondeados */
 }
 
