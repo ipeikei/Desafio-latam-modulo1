@@ -1,0 +1,161 @@
+/* Estilo de la tabla del portafolio */
+.portfolio {
+    margin: auto;
+    width: 100%;
+    max-width: 680px;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Añadir separación */
+}
+
+.portfolio th, .portfolio td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+
+.portfolio td.image-cell {
+    text-align: center;
+}
+
+.portfolio tr:nth-child(even) {
+    background-color: #f4f4f4; /* Alternar colores de fila para mejor legibilidad */
+}
+
+/* Estilo para el título principal */
+h1 {
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+    color: #333; /* Mejor contraste para el texto */
+}
+
+/* Cabecera del CV */
+.header-cv {
+    margin: auto;
+    width: 100%;
+    max-width: 680px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Fondo suave para la cabecera */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.header-cv h1 {
+    margin: 10px 0;
+    font-size: 2.5rem; /* Ajustar tamaño de fuente */
+}
+
+.header-cv p {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+/* Barra de navegación */
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007BFF; /* Cambiar color en hover */
+}
+
+/* Estilo para el pie de página */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries para hacerlo responsive */
+
+/* Pantallas pequeñas (móviles) */
+@media screen and (max-width: 768px) {
+    .portfolio td, .portfolio th {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .header-cv {
+        padding: 15px;
+    }
+
+    .header-cv h1 {
+        font-size: 2rem;
+    }
+
+    .header-cv p {
+        font-size: 1rem;
+    }
+
+    nav ul li {
+        display: block; /* Cambiar los elementos de la barra de navegación a bloque para móviles */
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 1.1rem;
+    }
+}
+
+/* Pantallas muy pequeñas (móviles muy pequeños) */
+@media screen and (max-width: 480px) {
+    .portfolio {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .header-cv h1 {
+        font-size: 1.8rem;
+    }
+
+    .header-cv p {
+        font-size: 0.9rem;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
+
+/* Pantallas grandes (tablets en posición horizontal o laptops) */
+@media screen and (min-width: 1024px) {
+    .header-cv h1 {
+        font-size: 3rem;
+    }
+
+    .portfolio {
+        max-width: 800px;
+    }
+}
