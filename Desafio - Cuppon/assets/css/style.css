@@ -1,0 +1,115 @@
+/*
+Font Weight:
+● Roboto Light (300).
+● Roboto Medium (500).
+
+Colores:
+● #212529;
+● #707070;
+● #F8F9FA o var(--light);
+● #fff o var(--white);
+● #28a745 o var(--success);
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar{
+    padding-top: 0;
+}
+
+.nav-cuppon{
+ padding: 20px;   
+ justify-content: space-between;
+}
+
+.logo-nav {
+    text-align: start;
+    height: 50px;
+    width: auto;
+}
+
+.navbar-brand.abs
+    {
+        position: absolute;
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+.navbar-brand{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.container-fluid{
+    background-color: #28A745;
+    font-weight: 300;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    color: #fff;
+    fill: #fff;
+}
+
+.row{
+    margin-top: 50px;
+}
+
+.card {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.valores{
+    align-content: right;
+    align-items: right;
+    text-align: end;
+}
+
+.valores a{
+    text-decoration: none;
+}
+
+.valores .link-success{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-body{
+    text-align: left;
+    margin: 0;
+}
+
+svg{
+    fill: #707070;
+    height: 15px;
+}
+
+.formulario {
+    margin-top: 40px;
+    overflow: hidden;
+    padding: 10px 0 ;
+    background-color: #28A745;
+    color: #fff;
+    width: 100%;
+}
+
+.btn-primary-white{
+    font-weight: 500;
+    margin: auto;
+    background-color: #fff;
+    color: black;
+}
+
+.btn-formulario{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.logo-footer{
+    width: auto;
+    height: 30px;
+}
