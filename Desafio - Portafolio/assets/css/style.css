@@ -27,7 +27,7 @@ body {
   section {
     width: 100%;
     max-width: 1000px; /* Puedes ajustar el ancho máximo de cada sección */
-    margin: 20px 0;
+    margin: 20px auto; /* Añadir separación entre secciones */
     text-align: center; /* Centra el texto de los encabezados */
   }
   
