@@ -1,3 +1,15 @@
+/* Importar la tipografía Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+/* Establecer la tipografía global */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #283618; /* Texto en color oscuro */
+}
+
 /* Estilo de la tabla del portafolio */
 .portfolio {
     margin: auto;
@@ -8,7 +20,7 @@
 }
 
 .portfolio th, .portfolio td {
-    border: 1px solid #000;
+    border: 1px solid #d4a373; /* Color de borde con la paleta */
     padding: 10px;
     text-align: left;
 }
@@ -26,7 +38,7 @@ h1 {
     margin: 20px auto;
     text-align: center;
     font-weight: bold;
-    color: #333; /* Mejor contraste para el texto */
+    color: #283618; /* Texto en color oscuro */
 }
 
 /* Cabecera del CV */
@@ -36,7 +48,7 @@ h1 {
     max-width: 680px;
     padding: 20px;
     text-align: center;
-    background-color: #f9f9f9; /* Fondo suave para la cabecera */
+    background-color: #ffe5d9; /* Color de fondo suave */
     border-radius: 8px; /* Bordes redondeados */
 }
 
@@ -52,13 +64,16 @@ h1 {
 
 /* Barra de navegación */
 nav {
-    margin: 20px 0;
+    background-color: #ffe5d9; /* Fondo de barra de navegación */
+    margin: 0;
+    padding: 10px 0;
     text-align: center;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -69,24 +84,26 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-size: 1.2rem;
-    color: #333;
+    color: #283618; /* Color de texto en la navegación */
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #007BFF; /* Cambiar color en hover */
+    color: #d4a373; /* Cambiar color en hover */
 }
 
 /* Estilo para el pie de página */
 footer {
+    background-color: #ffe5d9; /* Fondo de pie de página */
     margin-top: 20px;
     text-align: center;
     font-size: 1rem;
-    color: #333;
+    padding: 15px 0;
+    color: #283618; /* Texto en color oscuro */
 }
 
 footer a {
-    color: #007BFF;
+    color: #588157; /* Color del enlace en el pie de página */
     text-decoration: none;
 }
 
